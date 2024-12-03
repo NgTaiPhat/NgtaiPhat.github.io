@@ -1,116 +1,25 @@
-*{
-    padding:0;
-    margin:0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-    list-style: none;
-    text-decoration: none ;
-}
-header{
-    position:fixed ;
-    right: 0;
-    top: 0;
-    z-index: 1000;
-    width:100%;
-    display: flex;
-    align-items: center;
-    justify-content:space-between;
-    padding:33px 9%;
-    background:transparent;
-}
+.ib{
 
-.logo{
-    font-size: 30px;
-    font-weight:700;
+   font-size: 1.2rem;
+   padding:10px;
+   border-radius: 8px ;
+   border:1px solid #ddd;
+   margin-top: 10px;
+   text-align: center ;
+  
+}
+.ib h3{
     color:black;
-    font-family: 'Mochiy Pop One', sans-serif;
-    font-family: 'Permanent Marker', cursive;
-}
-.navlist{
-    display:flex; 
-}
-.navlist a{
-    font-size: 20px;
-    font-weight: 700;
-    color:rgb(255, 241, 240);
-    margin:10px;
-    padding:10px;
-    border-bottom: 2px solid none ;
-    transition: all .55s ease;
-}
-.navlist a:hover{
-    border-bottom: 2px solid white;
-}
-#menu-icon{
-    font-size: 40px;
-    color:white;
-    z-index: 10001;
-    cursor:pointer;
-    display:none;
-}
-.hero{
-    height:100%;
-    width:100%;
-    min-height: 100vh;
-    background:linear-gradient(245.59deg,#4d9559 0% , #38703d 28.53% ,#133917 75.52% );
-    position:relative;
-    display:grid;
-    grid-template-columns: repeat(2,1fr);
-    align-items: center;
-    gap:2rem;
+    text-align: center ;
 
 }
-section{
-    padding:0 20%;
-}
-.hero-text{
-    font-size: 25px;
-    color:white;
-    margin:0px;
-    padding:0px;
-}
-.hero-text h5{
-    font-size: 1em;
-    text-align:center;
-    color:black;
-    margin-bottom: 100px;
-    align-items: center;
-    font-weight: 700;
+.ib button{
+   font-size: 20px;
+   color:rgb(206, 24, 24);
+   overflow:hidden;
+   text-shadow:
+   0 0 .20em #FFF7,
+   0 0 .30em ; 
     
-}
-.hero-text h4{  
-    color:black;
-    font-weight: 900 ;
-    font-size: 18px ;
-    margin-bottom:10px ;  
-}
-.hero-text h1{
-    font-family: 'Permanent Marker', cursive;
-    font-size: 90px;
-    line-height: 1;
-    margin:0 0 45px;
-    
-}
-.hero-img{
-    width:700ox;
-    height:auto;
-}
-.hero-text a{
-    background:#4d9559;
-    display:inline-block;
-    border:1px solid transparent;
-    padding:12px 12px;
-    font-size: 14px;
-    font-weight: 500;
-    border-radius: 40px;
-    text-transform: uppercase;
-    transition:all .55s ease;
-    color:white;
-}
-.hero-text a:hover{
-    text-transform: uppercase;
-    border:1px solid white;
-    transform:translateX(8px);
-    background:transparent;
-}
 
+}
